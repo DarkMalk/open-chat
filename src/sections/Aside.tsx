@@ -7,6 +7,7 @@ import {
   allFriends,
   recentlyChats
 } from '../assets/mock_data'
+import { Logout } from '../icons/Logout'
 
 export default function Aside() {
   return (
@@ -130,6 +131,25 @@ export default function Aside() {
             </li>
           ))}
         </ul>
+      </div>
+      <div className='flex justify-between items-center p-4 border-r border-gray-200'>
+        <div className='flex flex-row gap-2'>
+          <Avatar
+            avatar='/placeholder.svg'
+            name='Sebastián'
+            online
+          />
+          <div>
+            <h2 className='text-sm font-semibold'>Sebastián Vergara</h2>
+            <p className='text-sm text-gray-500/70'>En línea</p>
+          </div>
+        </div>
+        <button
+          aria-label='Cerrar sesión'
+          className='p-2 rounded-lg hover:bg-gray-100 hover:text-red-400 cursor-pointer transition-all'
+        >
+          <Logout />
+        </button>
       </div>
     </nav>
   )
