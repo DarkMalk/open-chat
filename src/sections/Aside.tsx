@@ -1,6 +1,6 @@
 import { Avatar } from '../components/Avatar'
 import { Check } from '../icons/Check'
-import { Plus } from '../icons/plus'
+import { Plus } from '../icons/Plus'
 import { X } from '../icons/X'
 import {
   initialFriendRequests,
