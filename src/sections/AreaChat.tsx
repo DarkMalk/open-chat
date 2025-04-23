@@ -27,7 +27,7 @@ export default function AreaChat() {
             </p>
           </div>
         </div>
-        <button className='hover:bg-gray-200/70 p-2 rounded-lg cursor-pointer'>
+        <button className='hover:bg-gray-200/70 p-2 rounded-lg cursor-pointer transition-all'>
           <X />
         </button>
       </header>
