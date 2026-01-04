@@ -4,10 +4,10 @@ export const Send = () => (
     height='24'
     fill='none'
     stroke='currentColor'
-    stroke-width='2'
-    stroke-linecap='round'
-    stroke-linejoin='round'
-    className='icon icon-tabler icons-tabler-outline icon-tabler-send-2'
+    strokeWidth='2'
+    strokeLinecap='round'
+    strokeLinejoin='round'
+    className='icon-tabler icon-tabler-send-2 icons-tabler-outline icon'
   >
     <path
       d='M0 0h24v24H0z'
